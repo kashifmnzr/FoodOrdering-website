@@ -17,6 +17,7 @@ html{
 #navbar{
     display:flex;
     align-items: center;
+    z-index: 11;
 
 }
 /* Navigation Bar:Logo and Image */
@@ -85,16 +86,7 @@ a {
     transform:translateY(-5vh);
     text-align: center;
 }
-/* #home ::before{
-    content:"";
-    background:url('./bg1.jpeg') no-repeat center center/cover;
-    position: absolute;
-    height:100vh;
-    width: 100vh;
-    left:100%;
-    z-index:-1;
-    opacity:0.89;
-}*/
+
 #home h1{
     color:red;
     text-align: center;
